@@ -1,5 +1,22 @@
-const areCriptografa = document.querySelector('[data-area-criptografa]')
+{const areCriptografa = document.querySelector('[data-area-criptografa]')
 const areaDecriptografada = document.querySelector('[data-area-descriptografa]')
+
+//validação, provavelmente tem como melhorar, sempre tem isso ta bem básico.
+
+areCriptografa.addEventListener('blur', ()=>{
+
+      const validaMatriz = ["!", "@", "#", "$", "%", "&", "*", "-", "_", "=", "+", "^", "`", "´", "~", "/"]
+      
+      for(let i=0; i < validaMatriz.length; i++){
+
+            if(areCriptografa.value.includes(validaMatriz[i][0])){
+
+                  alert('O texto não deve conter caracteres especiais!')
+                  areCriptografa.focus()
+                  areCriptografa.value = " "
+            }
+      }
+})
 
 // A letra "e" é convertida para "enter"
 // A letra "i" é convertida para "imes"
@@ -74,3 +91,4 @@ function btnCopia(){
 // -selecionar o texto na area resultado
 // -transferir este valor para o clipboard
 // -limpa o campo copiado
+}

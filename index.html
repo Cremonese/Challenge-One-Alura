@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-16x16.png">
     <title>Encriptador-Challenge One x Alura</title>
 </head>
 <body>
     <header>
         <div class="logo-challenge">
-            <img src="Vector.png" alt="Alura logo">
+            <img src="/assets/images/Vector.png" alt="Alura logo">
         </div>
     </header>
     <main>
@@ -20,7 +21,7 @@
             <textarea id="criptografa" data-area-criptografa cols="40" rows="14" placeholder="Digite seu texto aqui..."></textarea>
             
             <div class="aviso">
-                <p> <img src="exclamation.png" alt="" srcset=""> Utilize apenas letras minúsculas, sem números e caracteres especiais.</p>
+                <p> <img src="/assets/images/exclamation.png" alt="" srcset=""> Utilize apenas letras minúsculas, sem números e caracteres especiais.</p>
             </div>
 
             <div class="botoes">
@@ -30,7 +31,7 @@
             
         </section>
         <section class="textareaDecriptografa">
-            <textarea class="decriptografa-Img" id="decriptografa" data-area-descriptografa cols="21" rows="17"></textarea>
+            <textarea class="decriptografa-Img" disabled id="decriptografa" data-area-descriptografa cols="21" rows="17"></textarea>
             <button class="btnCopia" data-copia onclick="btnCopia()" >Copiar</button>
         </section>
 
