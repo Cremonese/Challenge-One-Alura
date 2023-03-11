@@ -94,7 +94,7 @@ main{
 }
 
 .decriptografa-Img{
-    background-image: url(assets/images/placeholder-img.svg);
+    background-image: url(../placeholder-img.svg);
     background-size: 210%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -246,7 +246,7 @@ main{
 
 
     .decriptografa-Img{
-        background-image: url(assets/images/placeholder-img.svg);
+        background-image: url(../placeholder-img.svg);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: center;
@@ -314,7 +314,7 @@ main{
     }
 
     .decriptografa-Img{
-        background-image: url(assets/images/placeholder-img.svg);
+        background-image: url(../placeholder-img.svg);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: center;
